@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 
-const DB_URL = 'mongodb+srv://admin:sisma123@url-shortener.zzitld6.mongodb.net/?retryWrites=true&w=majority'
+const DB_URL = 'YOUR_MONGODB_URL_CONNECTION_STRING'
 
 mongoose.connect(DB_URL,{
     useNewUrlParser: true,
